@@ -2,7 +2,12 @@
   "name": "wi-theme-panda",
   "displayName": "Wi Panda Theme",
   "description": "Wiphone's Panda theme",
-  "version": "0.0.1",
+  "author": "Wiphone",
+  "version": "0.0.2",
+  "publisher": "Wiphone-wu",
+  "scripts": {
+    "package": "pnpm vsce package --no-dependencies"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -17,5 +22,8 @@
         "path": "./themes/wiPandaTheme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
   }
 }
