@@ -1,6 +1,6 @@
 {
-	"name": "wiphoneTheme",
-	"colors": {
+  "name": "wiphoneTheme",
+  "colors": {
     "foreground": "#E6E6E6",
     "errorForeground": "#FF4B82",
     "activityBar.background": "#222223",
@@ -9,7 +9,7 @@
     "activityBarBadge.background": "#13bea4",
     "activityBarBadge.foreground": "#E6E6E6",
     "badge.background": "#1ae1c4",
-    "badge.foreground": "#676B79",
+    "badge.foreground": "#242526",
     "progressBar.background": "#B084EB",
     "button.background": "#13bea4",
     "button.foreground": "#FFFFFF",
@@ -21,12 +21,12 @@
     "merge.incomingHeaderBackground": "#45A9F990",
     "merge.incomingContentBackground": "#FFB86C40",
     "editor.background": "#292A2B",
-    "editor.foreground": "#E6E6E6",
+    "editor.foreground": "#45A9F9",
     "editorCursor.foreground": "#FF4B82",
     "editorRuler.foreground": "#B084EB60",
     "editorBracketMatch.border": "#19f9d8",
     "editorCodeLens.foreground": "#FFB86C40",
-    "editorWhitespace.foreground": "#4E5260",
+    "editorWhitespace.foreground": "#3E4250",
     "editor.selectionBackground": "#FFB86C40",
     "editor.inactiveSelectionBackground": "#FFB86C40",
     "editor.selectionHighlightBackground": "#FFB86C40",
@@ -56,6 +56,7 @@
     "editorGutter.modifiedBackground": "#FFCC95",
     "editorGutter.addedBackground": "#19f9d8",
     "editorGutter.deletedBackground": "#FF4B82",
+    "gitDecoration.ignoredResourceForeground": "#757575",
     "editorIndentGuide.activeBackground1": "#FFCC95",
     "editorIndentGuide.background1": "#666666",
     "editorIndentGuide.activeBackground2": "#B084EB",
@@ -97,6 +98,7 @@
     "tab.activeBackground": "#292A2B",
     "tab.activeForeground": "#19f9d8",
     "tab.activeBorder": "#19f9d8",
+    "tab.hoverBackground": "#31353a",
     "tab.inactiveBackground": "#242526",
     "tab.inactiveForeground": "#E6E6E6",
     "terminalCursor.background": "#E6E6E6",
@@ -117,7 +119,7 @@
     "terminal.ansiWhite": "#CDCDCD",
     "terminal.ansiYellow": "#FFB86C"
   },
-	"tokenColors": [
+  "tokenColors": [
     {
       "scope": "comment",
       "settings": {
@@ -147,6 +149,12 @@
       "scope": "keyword.operator.logical, keyword.operator.comparison",
       "settings": {
         "foreground": "#FFCC95"
+      }
+    },
+    {
+      "scope": "keyword.operator.misc, keyword.operator.sigil",
+      "settings": {
+        "foreground": "#FF75B5"
       }
     },
     {
@@ -187,12 +195,6 @@
     },
     {
       "scope": "variable.other.constant, variable.language.this, variable.interpolation",
-      "settings": {
-        "foreground": "#FF9AC1"
-      }
-    },
-    {
-      "scope": "variable.other.object",
       "settings": {
         "foreground": "#FF9AC1"
       }
@@ -303,6 +305,13 @@
       "scope": "variable.interpolation",
       "settings": {
         "foreground": "#FF75B5"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#19f9d8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -520,6 +529,18 @@
       }
     },
     {
+      "scope": "variable.language.this.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "support.class.console.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "entity.name.tag.js.jsx, support.class.component.js.jsx",
       "settings": {
         "foreground": "#FF2C6D"
@@ -538,9 +559,41 @@
       }
     },
     {
-      "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html",
+      "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml",
       "settings": {
-        "foreground": "#FF2C6D"
+        "foreground": "#a7dbf7"
+      }
+    },
+    {
+      "scope": "entity.name.tag.xml, meta.tag.xml",
+      "settings": {
+        "foreground": "#FF9AC1"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#7fdbca"
+      }
+    },
+    {
+      "name": "Variable Instances",
+      "scope": [
+        "variable.instance",
+        "variable.other.instance",
+        "variable.readwrite.instance",
+        "variable.other.readwrite.instance",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#B084EB"
+      }
+    },
+    {
+      "scope": "text.pug",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     {

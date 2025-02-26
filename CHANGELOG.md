@@ -12,3 +12,7 @@ All notable changes to the "wiTheme" extension will be documented in this file.
 
 - Update the CHANGELOG.md file
 - Added @vscode/vsce packaging function
+
+  0.0.3
+
+- Drawing on winter is coming theme to enrich the color configuration of the theme
