@@ -26,3 +26,7 @@ All notable changes to the "wiTheme" extension will be documented in this file.
   0.0.5
 
 - Fix md image display exception
+
+  0.0.6
+
+- delete foreground attribute

@@ -1,7 +1,6 @@
 {
   "name": "wiphoneTheme",
   "colors": {
-    "foreground": "#ffdada",
     "errorForeground": "#FF4B82",
     "activityBar.background": "#222223",
     "activityBar.foreground": "#E6E6E6",
