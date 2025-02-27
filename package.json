@@ -5,6 +5,7 @@
   "author": "Wiphone",
   "version": "0.0.4",
   "publisher": "Wiphone-wu",
+  "icon": "public/wiPandaTheme.png",
   "scripts": {
     "package": "pnpm vsce package --no-dependencies"
   },
@@ -25,5 +26,9 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiphone-wu/wiTheme.git"
   }
 }

@@ -20,3 +20,5 @@ All notable changes to the "wiTheme" extension will be documented in this file.
   0.0.4
 
 - Uniform button color
+- Add preview image
+- Add logo
