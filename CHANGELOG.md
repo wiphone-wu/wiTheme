@@ -16,3 +16,7 @@ All notable changes to the "wiTheme" extension will be documented in this file.
   0.0.3
 
 - Drawing on winter is coming theme to enrich the color configuration of the theme
+
+  0.0.4
+
+- Uniform button color
