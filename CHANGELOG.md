@@ -22,3 +22,7 @@ All notable changes to the "wiTheme" extension will be documented in this file.
 - Uniform button color
 - Add preview image
 - Add logo
+
+  0.0.5
+
+- Fix md image display exception

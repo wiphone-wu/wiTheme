@@ -7,4 +7,4 @@ I borrowed the configuration of the panda theme and winter is coming theme for t
 thank you panda theme and winter is coming theme for such an excellent work.
 
 It looks something like this：
-![image](image.png)
+![image](public/image.png)
