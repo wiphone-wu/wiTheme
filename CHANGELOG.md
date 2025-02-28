@@ -30,3 +30,7 @@ All notable changes to the "wiTheme" extension will be documented in this file.
   0.0.6
 
 - delete foreground attribute
+
+  0.0.7
+
+- Button and badge font colors changed to default colors
