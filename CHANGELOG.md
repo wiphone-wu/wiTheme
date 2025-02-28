@@ -35,3 +35,8 @@ All notable changes to the "wiTheme" extension will be documented in this file.
 
 - Button and badge font colors changed to default colors
 - Update the image in md
+
+  0.0.8
+
+- Fix image file naming problem
+- Update logo
