@@ -40,3 +40,10 @@ All notable changes to the "wiTheme" extension will be documented in this file.
 
 - Fix image file naming problem
 - Update logo
+
+  0.0.9
+
+- Fix badge.background color
+- Package without including file .history
+
+
