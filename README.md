@@ -1,10 +1,10 @@
 # Wiphone Theme README
 
-The panda theme is great, but it hasn't been updated in a while.
+This is a theme of cyan and blue.
 
-I borrowed the configuration of the panda theme and winter is coming theme for the makeover.
+It draws inspiration from the designs of other themes.
 
-thank you panda theme and winter is coming theme for such an excellent work.
+I think it is very suitable for the vs code -insiders version.
 
 It looks something like this：
-![image](public/image.png)
+![image](public/img.png)

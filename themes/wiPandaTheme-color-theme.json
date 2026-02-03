@@ -2,121 +2,239 @@
   "name": "wiphoneTheme",
   "colors": {
     // "foreground": "#242526",
+    // 错误文本的前景色
     "errorForeground": "#FF4B82",
+    // 活动栏的背景色
     "activityBar.background": "#222223",
-    "activityBar.foreground": "#E6E6E6",
+    // 活动栏的前景色（文本和图标颜色）
+    "activityBar.foreground": "#1ae1c4",
+    // 活动栏的边框颜色
     "activityBar.border": "#222223",
-    "activityBarBadge.background": "#13bea4",
-    // "activityBarBadge.foreground": "#242526",
+    // 活动栏徽章的背景色
+    "activityBarBadge.background": "#33c2ac",
+    "activityBarBadge.foreground": "#242526",
+    // 徽章的背景色
     "badge.background": "#12b199",
-    // "badge.foreground": "#242526",
+    // 徽章的文本色
+    "badge.foreground": "#242526",
+    // 进度条的背景色
     "progressBar.background": "#B084EB",
+    // 按钮的背景色
     "button.background": "#13bea4",
-    // "button.foreground": "#242526",
+    "button.foreground": "#242526",
+    // 按钮悬停时的背景色
     "button.hoverBackground": "#1ae1c4",
+    // 差异编辑器中插入文���的背景色
     "diffEditor.insertedTextBackground": "#19f9d866",
+    // 差异编辑器中删除文本的背景色
     "diffEditor.removedTextBackground": "#FF4B8266",
+    // 合并冲突中当前更改的标题背景色
     "merge.currentHeaderBackground": "#B084EB90",
+    // 合并冲突中当前更改的内容背景色
     "merge.currentContentBackground": "#B084EB40",
+    // 合并冲突中传入更改的标题背景色
     "merge.incomingHeaderBackground": "#45A9F990",
+    // 合并冲突中传入更改的内容背景色
     "merge.incomingContentBackground": "#FFB86C40",
+    // 普通文本链接颜色
+    "textLink.foreground": "#1ae1c4",
+    // 鼠标悬停/激活时的链接颜色
+    "textLink.activeForeground": "#13bea4",
+    // 编辑器的背景色
     "editor.background": "#292A2B",
+    // 编辑器的默认前景色
     "editor.foreground": "#45A9F9",
+    // 编辑器光标的颜色
     "editorCursor.foreground": "#FF4B82",
+    // 编辑器标尺线的颜色
     "editorRuler.foreground": "#B084EB60",
+    // 编辑器括号匹配时的边框颜色
     "editorBracketMatch.border": "#19f9d8",
+    // 编辑器代码透镜的前景色
     "editorCodeLens.foreground": "#FFB86C40",
+    // 编辑器空白字符的前景色
     "editorWhitespace.foreground": "#3E4250",
+    // 编辑器选中区域的背景色
     "editor.selectionBackground": "#FFB86C40",
+    // 编辑器非活动选中区域的背景色
     "editor.inactiveSelectionBackground": "#FFB86C40",
+    // 编辑器选中内容高亮的背景色
     "editor.selectionHighlightBackground": "#FFB86C40",
+    // 编辑器单词高亮的背景色
     "editor.wordHighlightBackground": "#FFCC9560",
+    // 编辑器强单词高亮的背景色
     "editor.wordHighlightStrongBackground": "#FF9AC170",
+    // 编辑器查找匹配项的背景色
     "editor.findMatchBackground": "#B084EB90",
+    // 编辑器查找匹配项高亮的背景色
     "editor.findMatchHighlightBackground": "#FFB86C40",
+    // 编辑器行高亮的背景色
     "editor.lineHighlightBackground": "#31353a",
+    // 编辑器小部件的背景色
     "editorWidget.background": "#2a2c2d",
+    // 编辑器小部件的边框颜色
     "editorWidget.border": "#373B41",
+    // 编辑器建议小部件选中项的背景色
     "editorSuggestWidget.selectedBackground": "#19f9d899",
+    // 编辑器悬停小部件的背景色
     "editorHoverWidget.background": "#31353a",
+    // 编辑器概览标尺的边框颜色
     "editorOverviewRuler.border": "#00000000",
+    // 编辑器概览标尺中已修改内容的前景��
     "editorOverviewRuler.modifiedForeground": "#FFCC95",
+    // 编辑器概览标尺中已添加内容的前景色
     "editorOverviewRuler.addedForeground": "#19f9d8",
+    // 编辑���概览标尺中已删除内容的前景色
     "editorOverviewRuler.deletedForeground": "#FF4B82",
+    // 编辑器概览标尺中错误的前景色
     "editorOverviewRuler.errorForeground": "#FF4B82",
+    // 编辑器概览标尺中警告的前景色
     "editorOverviewRuler.warningForeground": "#FFCC95",
+    // 编辑器概览标尺中信息的前景色
     "editorOverviewRuler.infoForeground": "#1ae1c4",
+    // 扩展按钮突出显示的前景色
     "extensionButton.prominentForeground": "#FFFFFF",
+    // 扩展按钮突出显示的背景色
     "extensionButton.prominentBackground": "#13bea4",
+    // 扩展按钮突出显示悬停时的背景色
     "extensionButton.prominentHoverBackground": "#1ae1c4",
+    // 编辑器错误文本的前景色
     "editorError.foreground": "#FF4B82",
+    // 编辑器错误文本的边框颜色
     "editorError.border": "#FF4B82",
+    // 编辑器警告文本的前景色
     "editorWarning.foreground": "#FFCC95",
+    // 编辑器警告文本的边框颜色
     "editorWarning.border": "#FFCC95",
+    // 编辑器 gutter 中已修改内容的背景色
     "editorGutter.modifiedBackground": "#FFCC95",
+    // 编辑器 gutter 中已添加内容的背景色
     "editorGutter.addedBackground": "#19f9d8",
+    // 编辑器 gutter 中已删��内容的背景色
     "editorGutter.deletedBackground": "#FF4B82",
+    // Git 装饰中被忽略资源的前景色
     "gitDecoration.ignoredResourceForeground": "#757575",
+    // 编辑器缩进指南第1级活动状态的背景色
     "editorIndentGuide.activeBackground1": "#FFCC95",
+    // 编辑器缩进指南第1级非活动状态的背景色
     "editorIndentGuide.background1": "#666666",
+    // 编辑器缩进指南第2级活动状态的背景色
     "editorIndentGuide.activeBackground2": "#B084EB",
+    // 编辑器缩进指南第2级非活动状态的背景色
     "editorIndentGuide.background2": "#666666",
+    // 编辑器缩进指南第3级活动状态的背景色
     "editorIndentGuide.activeBackground3": "#45A9F9",
+    // 编辑器缩进指南第3级非活动状态的背景色
     "editorIndentGuide.background3": "#666666",
+    // 编辑器缩进指南第4级活动状态的背景色
     "editorIndentGuide.activeBackground4": "#19f9d8",
+    // 编辑器缩进指南第4级非活动状态的背景色
     "editorIndentGuide.background4": "#666666",
+    // 编辑器缩进指南第5级活动状态的背景色
     "editorIndentGuide.activeBackground5": "#FF4B82",
+    // 编辑器缩进指南第5级非活动状态的背景色
     "editorIndentGuide.background5": "#666666",
+    // 编辑器缩进指南第6级活动状态的背景色
     "editorIndentGuide.activeBackground6": "#FF75B5",
+    // 编辑器缩进指南第6级非活动状态的背景色
     "editorIndentGuide.background6": "#666666",
+    // 列表项悬停时的背景色
     "list.hoverBackground": "#292A2B",
+    // 列表项悬停时的前景色
     "list.hoverForeground": "#CDCDCD",
+    // 列表项获得焦点时的背景色
     "list.focusBackground": "#292A2B",
+    // 列表项获得焦点时的前景色
     "list.focusForeground": "#19f9d8",
+    // 列表项选中时的背景色
     "list.activeSelectionBackground": "#292A2B",
+    // 列表项选中时的前景色
     "list.activeSelectionForeground": "#19f9d8",
+    // 列表项非活动选中时的背景色
     "list.inactiveSelectionBackground": "#292A2B",
+    // 列表项非活动选中时的前景色
     "list.inactiveSelectionForeground": "#19f9d8",
+    // 列表项高亮文本的前景色
     "list.highlightForeground": "#1ae1c4",
+    // 侧边栏的背景色
     "sideBar.background": "#242526",
+    // 侧边栏的前景色
     "sideBar.foreground": "#BBBBBB",
+    // 侧边栏的边框颜色
     "sideBar.border": "#222223",
+    // 滚动条的阴影颜色
     "scrollbar.shadow": "#222223",
+    // 滚动条滑块的背景色
     "scrollbarSlider.background": "#373B4199",
+    // 滚动条滑块激活时的背景色
     "scrollbarSlider.activeBackground": "#757575",
+    // 滚动条滑块悬停时的背景色
     "scrollbarSlider.hoverBackground": "#757575",
-    "statusBar.background": "#222223",
-    "statusBar.foreground": "#E6E6E6",
-    "statusBar.noFolderBackground": "#242526",
-    "statusBar.noFolderForeground": "#E6E6E6",
+    // 状态栏的背景色（有文件夹打开时）
+    "statusBar.background": "#12b199",
+    // 状态栏的前景色（有文件夹打开时）
+    "statusBar.foreground": "#151515",
+    // 状态栏的背景色（无文件夹打开时）
+    "statusBar.noFolderBackground": "#12b199",
+    // 状态栏的前景色（无文件夹打开时）
+    "statusBar.noFolderForeground": "#151515",
+    // 状态栏的背景色（调试模式时）
     "statusBar.debuggingBackground": "#B084EB",
+    // 状态栏的前景色（调试模式时）
     "statusBar.debuggingForeground": "#E6E6E6",
+    // 标题栏的背景色（活动状态）
     "titleBar.activeBackground": "#242526",
+    // 标题栏的前景色（活动状态）
     "titleBar.activeForeground": "#E6E6E6",
+    // 标题栏的背景色（非活动状态）
     "titleBar.inactiveBackground": "#242526",
+    // 标题栏的前景色（非活动状态）
     "titleBar.inactiveForeground": "#E6E6E6",
+    // 活动标签页的背景色
     "tab.activeBackground": "#292A2B",
+    // 活动���签页的前景色
     "tab.activeForeground": "#19f9d8",
+    // 活动标签页的边框颜色
     "tab.activeBorder": "#19f9d8",
+    // 标签页悬停时的背景色
     "tab.hoverBackground": "#31353a",
+    // 非活动标签页的背景色
     "tab.inactiveBackground": "#242526",
+    // 非活动标签页的前景色
     "tab.inactiveForeground": "#E6E6E6",
+    // 终端光标的背景色
     "terminalCursor.background": "#E6E6E6",
+    // 终端光标的前景色
     "terminalCursor.foreground": "#FF4B82",
+    // 终端ANSI蓝色
     "terminal.ansiBlue": "#45A9F9",
+    // 终端ANSI亮黑色
     "terminal.ansiBrightBlack": "#757575",
+    // 终端ANSI亮蓝色
     "terminal.ansiBrightBlue": "#6FC1FF",
+    // 终端ANSI亮青色
     "terminal.ansiBrightCyan": "#BCAAFE",
+    // 终端ANSI亮绿色
     "terminal.ansiBrightGreen": "#19f9d8",
+    // 终端ANSI亮品红色
     "terminal.ansiBrightMagenta": "#FF9AC1",
+    // 终端ANSI亮红色
     "terminal.ansiBrightRed": "#FF2C6D",
+    // 终端ANSI亮白色
     "terminal.ansiBrightWhite": "#E6E6E6",
+    // 终端ANSI亮黄色
     "terminal.ansiBrightYellow": "#FFCC95",
+    // 终端ANSI青色
     "terminal.ansiCyan": "#B084EB",
+    // 终端ANSI绿色
     "terminal.ansiGreen": "#19f9d8",
+    // 终端ANSI品红色
     "terminal.ansiMagenta": "#FF75B5",
+    // 终端ANSI红色
     "terminal.ansiRed": "#FF2C6D",
+    // 终端ANSI白色
     "terminal.ansiWhite": "#CDCDCD",
+    // 终端ANSI黄色
     "terminal.ansiYellow": "#FFB86C"
   },
   "tokenColors": [
@@ -181,30 +299,35 @@
         "foreground": "#E6E6E6"
       }
     },
+    // 函数参数变量的颜色
     {
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#BBBBBB"
       }
     },
+    // 对象解构绑定变量的颜色
     {
       "scope": "meta.object-binding-pattern-variable.js variable",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // 常量、this关键字和插值变量的颜色
     {
       "scope": "variable.other.constant, variable.language.this, variable.interpolation",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // 对象属性的颜色
     {
       "scope": "variable.other.property",
       "settings": {
         "foreground": "#E6E6E6"
       }
     },
+    // 非法语法的样式
     {
       "scope": "invalid.illegal",
       "settings": {
@@ -235,78 +358,91 @@
         "foreground": "#FFCC95"
       }
     },
+    // 支持类的颜色
     {
       "scope": "support.class",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // JavaScript模块对象的颜色
     {
       "scope": "support.type.object.module.js",
       "settings": {
         "foreground": "#B084EB"
       }
     },
+    // 支持函数的颜色
     {
       "scope": "support.function",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 函数名的颜色
     {
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 继承类的颜色
     {
       "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // YAML标签名的颜色
     {
       "scope": "entity.name.tag.yaml",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // 装饰器标点的颜色
     {
       "scope": "meta.decorator punctuation.decorator",
       "settings": {
         "foreground": "#FFB86C"
       }
     },
+    // 装饰器变量的颜色
     {
       "scope": "meta.decorator variable",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 特殊方法关键字（如constructor、toString）的颜色
     {
       "scope": "keyword.other.special-method",
       "settings": {
         "foreground": "#13bea4"
       }
     },
+    // CSS at-rule关键字（如@media、@keyframes）的颜色
     {
       "scope": "keyword.control.at-rule",
       "settings": {
         "foreground": "#B084EB"
       }
     },
+    // !important关键字的颜色
     {
       "scope": "keyword.other.important",
       "settings": {
         "foreground": "#FF4B82"
       }
     },
+    // 变量插值的颜色
     {
       "scope": "variable.interpolation",
       "settings": {
         "foreground": "#FF75B5"
       }
     },
+    // 类型名的颜色和样式
     {
       "scope": "entity.name.type",
       "settings": {
@@ -314,12 +450,14 @@
         "fontStyle": "italic"
       }
     },
+    // Handlebars模板标签名的颜色
     {
       "scope": "meta.source.handlebars entity.name.tag",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 表达式和标签标点的样式
     {
       "scope": "punctuation.definition.expression, punctuation.definition.subexpression, punctuation.definition.block.unescaped, punctuation.definition.tag",
       "settings": {
@@ -327,54 +465,63 @@
         "foreground": "#FFCC95"
       }
     },
+    // 函数表达式名称的颜色
     {
       "scope": "entity.name.function.expression",
       "settings": {
         "foreground": "#FF75B5"
       }
     },
+    // 未转义表达式的颜色
     {
       "scope": "entity.unescaped.expression",
       "settings": {
         "foreground": "#B084EB"
       }
     },
+    // 符号常量的颜色
     {
       "scope": "constant.other.symbol",
       "settings": {
         "foreground": "#19f9d8"
       }
     },
+    // 表达式参数名的颜色
     {
       "scope": "entity.expression variable.parameter.name",
       "settings": {
         "foreground": "#FFB86C"
       }
     },
+    // 表达式参数值的颜色
     {
       "scope": "entity.expression variable.parameter.value",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 表达式中内置函数的颜色
     {
       "scope": "entity.expression support.function.builtin",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // HTML标签名的颜色
     {
       "scope": "entity.name.tag.html",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // Handlebars属性名的颜色
     {
       "scope": "entity.other.attribute-name.handlebars",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // React组件的颜色和样式
     {
       "scope": "support.class.component",
       "settings": {
@@ -382,18 +529,21 @@
         "fontStyle": "italic"
       }
     },
+    // JSX标签名的颜色
     {
       "scope": "meta.tag.js entity.name.tag",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // HTML属性名的颜色
     {
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#FFB86C"
       }
     },
+    // Markdown粗体文本的样式
     {
       "scope": "markup.bold",
       "settings": {
@@ -401,6 +551,7 @@
         "font-weight": "bold"
       }
     },
+    // Markdown粗体标点的样式
     {
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
@@ -408,18 +559,21 @@
         "font-weight": "bold"
       }
     },
+    // 更改文本的颜色
     {
       "scope": "markup.changed",
       "settings": {
         "foreground": "#FF75B5"
       }
     },
+    // 删除文本的颜色
     {
       "scope": "markup.deleted",
       "settings": {
         "foreground": "#FF2C6D"
       }
     },
+    // Markdown斜体文本的样式
     {
       "scope": "markup.italic",
       "settings": {
@@ -427,6 +581,7 @@
         "fontStyle": "italic"
       }
     },
+    // Markdown斜体标点的样式
     {
       "scope": "punctuation.definition.italic.markdown",
       "settings": {
@@ -434,30 +589,35 @@
         "fontStyle": "italic"
       }
     },
+    // 插入文本的颜色
     {
       "scope": "markup.inserted",
       "settings": {
         "foreground": "#19f9d8"
       }
     },
+    // Markdown标题标点的颜色
     {
       "scope": "punctuation.definition.heading",
       "settings": {
         "foreground": "#19f9d8"
       }
     },
+    // Markdown章节名称的颜色
     {
       "scope": "entity.name.section.markdown",
       "settings": {
         "foreground": "#BBBBBB"
       }
     },
+    // Markdown引用文本的颜色
     {
       "scope": "markup.quote",
       "settings": {
         "foreground": "#FFB86C"
       }
     },
+    // Markdown内联代码的样式
     {
       "scope": "markup.inline.raw",
       "settings": {
@@ -465,18 +625,21 @@
         "fontStyle": "italic"
       }
     },
+    // 列表项标点的颜色
     {
       "scope": "beginning.punctuation.definition.list",
       "settings": {
         "foreground": "#FF75B5"
       }
     },
+    // Markdown代码块标点的颜色
     {
       "scope": "markup.fenced_code.block.markdown punctuation.definition.markdown",
       "settings": {
         "foreground": "#757575"
       }
     },
+    // 代码块语言标识的样式
     {
       "scope": "fenced_code.block.language",
       "settings": {
@@ -484,6 +647,7 @@
         "fontStyle": "italic"
       }
     },
+    // 链接文本的样式
     {
       "scope": "string.other.link",
       "settings": {
@@ -491,6 +655,7 @@
         "fontStyle": "normal"
       }
     },
+    // Markdown内联链接的样式
     {
       "scope": "meta.link.inline.markdown",
       "settings": {
@@ -498,60 +663,70 @@
         "fontStyle": "italic"
       }
     },
+    // Markdown字符串标点的颜色
     {
       "scope": "text.html.markdown punctuation.definition.string",
       "settings": {
         "foreground": "#FFCC95"
       }
     },
+    // JavaScript类名的颜色
     {
       "scope": "entity.name.type.class.js",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // JavaScript 'as'关键字的颜色
     {
       "scope": "keyword.control.as.js",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // JavaScript 'from'关键字的颜色
     {
       "scope": "keyword.control.from.js.jsx",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // JavaScript 'export'关键字的颜色
     {
       "scope": "keyword.control.export.js",
       "settings": {
         "foreground": "#B084EB"
       }
     },
+    // JavaScript 'this'关键字的样式
     {
       "scope": "variable.language.this.js",
       "settings": {
         "fontStyle": "italic"
       }
     },
+    // JavaScript console对象的样式
     {
       "scope": "support.class.console.js",
       "settings": {
         "fontStyle": "italic"
       }
     },
+    // JSX标签和React组件的颜色
     {
       "scope": "entity.name.tag.js.jsx, support.class.component.js.jsx",
       "settings": {
         "foreground": "#FF2C6D"
       }
     },
+    // JavaScript 'super'关键字的颜色
     {
       "scope": "variable.language.super.js.jsx",
       "settings": {
         "foreground": "#13bea4"
       }
     },
+    // HTML标签的颜色
     {
       "scope": "meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade",
       "settings": {
@@ -564,12 +739,14 @@
         "foreground": "#a7dbf7"
       }
     },
+    // XML标签的颜色
     {
       "scope": "entity.name.tag.xml, meta.tag.xml",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // 数字常量的颜色
     {
       "name": "Number",
       "scope": "constant.numeric",
@@ -577,6 +754,7 @@
         "foreground": "#7fdbca"
       }
     },
+    // 变量实例的颜色
     {
       "name": "Variable Instances",
       "scope": [
@@ -590,48 +768,56 @@
         "foreground": "#B084EB"
       }
     },
+    // Pug模板文本的颜色
     {
       "scope": "text.pug",
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
+    // CSS标签名的颜色
     {
       "scope": "entity.name.tag.css",
       "settings": {
         "foreground": "#FF2C6D"
       }
     },
+    // CSS属性名的颜色
     {
       "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "#E6E6E6"
       }
     },
+    // SCSS变量的颜色
     {
       "scope": "variable.scss",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // SCSS引用标签的颜色
     {
       "scope": "entity.name.tag.reference.scss",
       "settings": {
         "foreground": "#FF2C6D"
       }
     },
+    // CSS单位的颜色
     {
       "scope": "keyword.other.unit.rem.css, keyword.other.unit.vh.css, keyword.other.unit.px.css, keyword.other.unit.em.css, keyword.other.unit.deg.css, keyword.other.unit.percentage.css",
       "settings": {
         "foreground": "#FFB86C"
       }
     },
+    // 正则表达式字符串的颜色
     {
       "scope": "string.regexp",
       "settings": {
         "foreground": "#1ae1c4"
       }
     },
+    // 正则表达式关键字的样式
     {
       "scope": "string.regexp keyword, string.regexp keyword.control",
       "settings": {
@@ -639,18 +825,21 @@
         "fontStyle": "normal"
       }
     },
+    // 正则表达式操作符的颜色
     {
       "scope": "string.regexp keyword.operator",
       "settings": {
         "foreground": "#FF9AC1"
       }
     },
+    // JSDoc文档注释的字体样式
     {
       "scope": "comment.block.documentation",
       "settings": {
         "fontStyle": "normal"
       }
     },
+    // JSDoc类型实例标点的样式
     {
       "scope": "entity.name.type.instance.jsdoc punctuation.definition",
       "settings": {
@@ -658,6 +847,7 @@
         "fontStyle": "italic"
       }
     },
+    // JSDoc类型实例的样式
     {
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
@@ -665,6 +855,7 @@
         "fontStyle": "italic"
       }
     },
+    // 注释块中存储关键字的样式
     {
       "scope": "comment.block storage",
       "settings": {
@@ -676,6 +867,6 @@
       "settings": {
         "foreground": "#FF9AC1"
       }
-    }
+    },
   ]
 }
