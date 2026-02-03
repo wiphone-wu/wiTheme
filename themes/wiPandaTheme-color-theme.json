@@ -24,6 +24,10 @@
     "button.foreground": "#242526",
     // 按钮悬停时的背景色
     "button.hoverBackground": "#1ae1c4",
+    // 次级按钮（如界面出现更浅的次级按钮）
+    "button.secondaryBackground": "#13bea4",
+    "button.secondaryForeground": "#222223",
+    "button.secondaryHoverBackground": "#1ae1c4",
     // 差异编辑器中插入文���的背景色
     "diffEditor.insertedTextBackground": "#19f9d866",
     // 差异编辑器中删除文本的背景色
@@ -93,7 +97,7 @@
     // 编辑器概览标尺中信息的前景色
     "editorOverviewRuler.infoForeground": "#1ae1c4",
     // 扩展按钮突出显示的前景色
-    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentForeground": "#242526",
     // 扩展按钮突出显示的背景色
     "extensionButton.prominentBackground": "#13bea4",
     // 扩展按钮突出显示悬停时的背景色
