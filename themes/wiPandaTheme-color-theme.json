@@ -16,7 +16,7 @@
     // 徽章的背景色
     "badge.background": "#12b199",
     // 徽章的文本色
-    "badge.foreground": "#242526",
+    "badge.foreground": "#12b199",
     // 进度条的背景色
     "progressBar.background": "#B084EB",
     // 按钮的背景色
