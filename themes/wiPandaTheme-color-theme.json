@@ -1,6 +1,8 @@
 {
   "name": "wiphoneTheme",
   "colors": {
+    // 元素获得焦点时的边框颜色（如按钮、输入框等）
+    "focusBorder": "#1ae1c4",
     // "foreground": "#242526",
     // 错误文本的前景色
     "errorForeground": "#FF4B82",
@@ -143,23 +145,25 @@
     // 编辑器缩进指南第6级非活动状态的背景色
     "editorIndentGuide.background6": "#666666",
     // 列表项悬停时的背景色
-    "list.hoverBackground": "#292A2B",
+    "list.hoverBackground": "#373B4199",
     // 列表项悬停时的前景色
     "list.hoverForeground": "#CDCDCD",
     // 列表项获得焦点时的背景色
-    "list.focusBackground": "#292A2B",
+    "list.focusBackground": "#373B4199",
     // 列表项获得焦点时的前景色
-    "list.focusForeground": "#19f9d8",
+    "list.focusForeground": "#19f9d899",
     // 列表项选中时的背景色
-    "list.activeSelectionBackground": "#292A2B",
+    "list.activeSelectionBackground": "#19f9d899",
     // 列表项选中时的前景色
-    "list.activeSelectionForeground": "#19f9d8",
+    "list.activeSelectionForeground": "#2a2b29",
     // 列表项非活动选中时的背景色
-    "list.inactiveSelectionBackground": "#292A2B",
+    "list.inactiveSelectionBackground": "#19f9d899",
     // 列表项非活动选中时的前景色
-    "list.inactiveSelectionForeground": "#19f9d8",
+    "list.inactiveSelectionForeground": "#292A2B",
     // 列表项高亮文本的前景色
     "list.highlightForeground": "#1ae1c4",
+    // 列表项非活动聚焦时的背景色
+    "list.inactiveFocusBackground": "#292A2B",
     // 侧边栏的背景色
     "sideBar.background": "#242526",
     // 侧边栏的前景色
@@ -196,7 +200,7 @@
     "titleBar.inactiveForeground": "#E6E6E6",
     // 活动标签页的背景色
     "tab.activeBackground": "#292A2B",
-    // 活动���签页的前景色
+    // 活动签页的前景色
     "tab.activeForeground": "#19f9d8",
     // 活动标签页的边框颜色
     "tab.activeBorder": "#19f9d8",
@@ -335,13 +339,15 @@
     {
       "scope": "invalid.illegal",
       "settings": {
-        "border-bottom": "1px dashed rgba(255, 44, 109, 0.5)"
+        "foreground": "#FF2C6D",
+        "fontStyle": "underline"
       }
     },
     {
       "scope": "invalid.deprecated",
       "settings": {
-        "background-foreground": "rgba(255, 44, 109, 0.62)"
+        "foreground": "#FF2C6D",
+        "fontStyle": "strikethrough"
       }
     },
     {
@@ -552,7 +558,7 @@
       "scope": "markup.bold",
       "settings": {
         "foreground": "#FFB86C",
-        "font-weight": "bold"
+        "fontStyle": "bold"
       }
     },
     // Markdown粗体标点的样式
@@ -560,7 +566,7 @@
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
         "foreground": "#FFCC95",
-        "font-weight": "bold"
+        "fontStyle": "bold"
       }
     },
     // 更改文本的颜色
@@ -656,7 +662,7 @@
       "scope": "string.other.link",
       "settings": {
         "foreground": "#BBBBBB",
-        "fontStyle": "normal"
+        "fontStyle": "italic"
       }
     },
     // Markdown内联链接的样式
@@ -826,7 +832,7 @@
       "scope": "string.regexp keyword, string.regexp keyword.control",
       "settings": {
         "foreground": "#FF75B5",
-        "fontStyle": "normal"
+        "fontStyle": "italic"
       }
     },
     // 正则表达式操作符的颜色
@@ -840,7 +846,7 @@
     {
       "scope": "comment.block.documentation",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": "italic"
       }
     },
     // JSDoc类型实例标点的样式
